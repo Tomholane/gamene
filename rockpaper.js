@@ -64,7 +64,7 @@ mychoice.forEach(choice =>
            else
            {
               resultgame.innerText ='You Lose 😢'
-              winscore--
+              winscore = 0
               score.innerText = `Winning Streak : ${winscore}`
               if(winscore < 0)
               {
